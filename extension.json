@@ -18,5 +18,27 @@
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\NetworkSession\\": "includes/"
 	},
+	"SessionProviders": {
+		"MediaWiki\\Extension\\NetworkSession\\NetworkSessionProvider": {
+			"class": "MediaWiki\\Extension\\NetworkSession\\NetworkSessionProvider",
+			"args": [{
+				"priority": 100
+			}]
+		}
+	},
+	"config": {
+		"NetworkSessionProviderUsers": {
+			"description": "List of assoc arrays containing 'username', 'ip_ranges' and 'token'  keys configuring the list of users",
+			"value": []
+		},
+		"NetworkSessionProviderAllowedUserRights": {
+			"description": "List of strings to limit user rights to. This does not grant any rights the user doesn't already have. Defaults to null, meaning no limits",
+			"value": null
+		},
+		"NetworkSessionProviderCanAlwaysAutocreate": {
+			"description": "When true the provider will bypass account creation authorization. Defaults to false, meaning standard anonymous user account creation limits apply.",
+			"value": false
+		}
+	},
 	"manifest_version": 2
 }
