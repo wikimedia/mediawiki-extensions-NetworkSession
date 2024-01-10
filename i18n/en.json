@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Erik Bernhardson"
+		]
+	},
+	"networksession-desc": "Adds a SessionProvider based on configured ip address and secret token"
+}

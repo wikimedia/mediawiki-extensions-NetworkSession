@@ -1,0 +1,22 @@
+{
+	"name": "NetworkSession",
+	"version": "0.1.0",
+	"author": [
+		"Erik Bernhardson"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:NetworkSession",
+	"descriptionmsg": "networksession-desc",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.42"
+	},
+	"MessagesDirs": {
+		"NetworkSession": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\NetworkSession\\": "includes/"
+	},
+	"manifest_version": 2
+}
