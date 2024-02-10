@@ -21,9 +21,11 @@
 	"SessionProviders": {
 		"MediaWiki\\Extension\\NetworkSession\\NetworkSessionProvider": {
 			"class": "MediaWiki\\Extension\\NetworkSession\\NetworkSessionProvider",
-			"args": [{
-				"priority": 100
-			}]
+			"args": [
+				{
+					"priority": 100
+				}
+			]
 		}
 	},
 	"config": {
