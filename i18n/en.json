@@ -4,12 +4,12 @@
 			"Erik Bernhardson"
 		]
 	},
-	"networksession-desc": "Adds a SessionProvider based on configured ip address and secret token",
-	"networksession-only-api-request": "NetworkSession auth is only valid for api requests.",
-	"networksession-only-https": "NetworkSession auth is only valid for https requests.",
-	"networksession-invalid-config-ip-ranges": "Configured ip_ranges in NetworkSessionProvider must be an array.",
-	"networksession-invalid-config-token": "Configured token in NetworkSessionProvider must be a string.",
-	"networksession-invalid-config-username": "Configured username in NetworkSessionProvider must be a string.",
+	"networksession-desc": "Adds a SessionProvider based on configured IP address and secret token",
+	"networksession-only-api-request": "NetworkSession authorization is only valid for API requests.",
+	"networksession-only-https": "NetworkSession authorization is only valid for HTTPS requests.",
+	"networksession-invalid-config-ip-ranges": "The <var>ip_ranges</var> configured in NetworkSessionProvider must be an array.",
+	"networksession-invalid-config-token": "The <var>token</var> configured in NetworkSessionProvider must be a string.",
+	"networksession-invalid-config-username": "The <var>username</var> configured in NetworkSessionProvider must be a string.",
 	"networksession-invalid-config-multiple-matches": "Multiple configured users matched the request, but only one is allowed.",
-	"networksession-no-token-match": "Provided NetworkSession auth token failed to authenticate."
+	"networksession-no-token-match": "The provided NetworkSession authorization token failed to authenticate."
 }
