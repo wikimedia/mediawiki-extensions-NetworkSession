@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"networksession-desc": "Fügt einen SessionProvider basierend auf der konfigurierten IP-Adresse und dem geheimen Token hinzu",
+	"networksession-only-api-request": "Die NetworkSession-Autorisierung ist nur für API-Anfragen gültig.",
+	"networksession-only-https": "Die NetworkSession-Autorisierung ist nur für HTTPS-Anfragen gültig.",
+	"networksession-invalid-config-ip-ranges": "Die in NetworkSessionProvider konfigurierten <var>ip_ranges</var> müssen ein Array sein.",
+	"networksession-invalid-config-token": "Das in NetworkSessionProvider konfigurierte <var>token</var> muss eine Zeichenfolge sein.",
+	"networksession-invalid-config-username": "Der in NetworkSessionProvider konfigurierte <var>username</var> muss eine Zeichenfolge sein.",
+	"networksession-invalid-config-multiple-matches": "Mehrere konfigurierte Benutzer stimmten mit der Anfrage überein, es ist jedoch nur einer zulässig.",
+	"networksession-no-token-match": "Die Authentifizierung des bereitgestellten NetworkSession-Autorisierungstokens ist fehlgeschlagen."
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"networksession-desc": "הוספת SessionProvider המבוסס על כתובת IP מוגדרת ואסימון סודי",
+	"networksession-only-api-request": "אישור NetworkSession תקף רק עבור בקשות API.",
+	"networksession-only-https": "אישור NetworkSession תקף רק עבור בקשות HTTPS.",
+	"networksession-invalid-config-ip-ranges": "המשתנה <var>ip_ranges</var> המוגדר ב־NetworkSessionProvider חייב להיות מערך.",
+	"networksession-invalid-config-token": "המשתנה <var>token</var> המוגדר ב־NetworkSessionProvider חייב להיות מחרוזת.",
+	"networksession-invalid-config-username": "המשתנה <var>username</var> המוגדר ב־NetworkSessionProvider חייב להיות מחרוזת.",
+	"networksession-invalid-config-multiple-matches": "כמה משתמשים מוגדרים תאמו את הבקשה, אך מותר רק אחד.",
+	"networksession-no-token-match": "אסימון אישור NetworkSession שסופק נכשל באימות."
+}

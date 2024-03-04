@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"networksession-desc": "Doda SessionProvider na podlagi konfiguriranega IP-naslova in skrivnega žetona",
+	"networksession-only-api-request": "Pooblastitev NetworkSession je veljavna samo za zahtevke API.",
+	"networksession-only-https": "Pooblastitev NetworkSession je veljavna samo za zahtevke HTTPS.",
+	"networksession-invalid-config-ip-ranges": "<var>Ip_ranges</var>, konfiguriran v NetworkSessionProvider, mora biti matrika.",
+	"networksession-invalid-config-token": "<var>token</var>, konfiguriran v NetworkSessionProvider, mora biti niz.",
+	"networksession-invalid-config-username": "<var>username</var>, konfiguriran v NetworkSessionProvider, mora biti niz.",
+	"networksession-invalid-config-multiple-matches": "Z zahtevkom se ujema več konfiguriranih uporabnikov, vendar je dovoljen samo eden.",
+	"networksession-no-token-match": "Pristnosti predloženega žetona za pooblastitev NetworkSession ni bilo mogoče preveriti."
+}

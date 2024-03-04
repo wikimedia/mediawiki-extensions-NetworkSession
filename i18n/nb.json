@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"networksession-desc": "Legger til en SessionProvider basert på en konfigurert IP-adresse og en hemmelig nøkkel",
+	"networksession-only-api-request": "NetworkSession-autorisering er kun gyldig for API-forespørsler.",
+	"networksession-only-https": "NetworkSession-autorisering er kun gyldig for HTTPS-forespørsler.",
+	"networksession-invalid-config-ip-ranges": "<var>ip_ranges</var> konfigurert i NetworkSessionProvider må være en array.",
+	"networksession-invalid-config-token": "<var>token</var> konfigurert i NetworkSessionProvider må være en streng.",
+	"networksession-invalid-config-username": "<var>username</var> konfigurert i NetworkSessionProvider må være en streng.",
+	"networksession-invalid-config-multiple-matches": "Flere konfigurerte brukere samsvarte med forespørselen, men kun én er tillatt.",
+	"networksession-no-token-match": "Den oppgitte NetworkSession-autoriseringsnøkkelen ble ikke autentisert."
+}
