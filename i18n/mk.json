@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"networksession-desc": "Додава SessionProvider врз основа на зададена IP-адреса и тајна шифра",
+	"networksession-only-api-request": "Овластувањето за NetworkSession важи само за приложнички барања.",
+	"networksession-only-https": "Овластувањето за NetworkSession важи само за HTTPS-барања.",
+	"networksession-invalid-config-ip-ranges": "<var>ip_ranges</var> зададено во NetworkSessionProvider мора да биде строј.",
+	"networksession-invalid-config-token": "<var>token</var> зададено во NetworkSessionProvider мора да биде низа.",
+	"networksession-invalid-config-username": "<var>username</var> зададено во NetworkSessionProvider мора да биде низа.",
+	"networksession-invalid-config-multiple-matches": "Со барањето се совпаднаа повеќе зададени корисници, но дозволен е само еден.",
+	"networksession-no-token-match": "Укажаната овластувачка шифра за NetworkSession не можеше да се завери."
+}
