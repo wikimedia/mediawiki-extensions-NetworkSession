@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"networksession-desc": "Adde un SessionProvider a base del adresse IP e clave secrete configurate",
+	"networksession-only-api-request": "Le autorisation NetworkSession es solmente valide pro requestas API.",
+	"networksession-only-https": "Le autorisation NetworkSession es solmente valide pro requestas HTTPS.",
+	"networksession-invalid-config-ip-ranges": "Le valor <var>ip_ranges</var> configurate in NetworkSessionProvider debe esser un matrice (''array'').",
+	"networksession-invalid-config-token": "Le valor <var>token</var> configurate in NetworkSessionProvider debe esser un catena de characteres.",
+	"networksession-invalid-config-username": "Le valor <var>username</var> configurate in NetworkSessionProvider debe esser un catena de characteres.",
+	"networksession-invalid-config-multiple-matches": "Plure usatores configurate corresponde al requesta, ma solmente un es permittite.",
+	"networksession-no-token-match": "Le authentication con le token de autorisation NetworkSession fornite ha fallite."
+}
