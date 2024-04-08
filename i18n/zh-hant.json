@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"networksession-desc": "根據配置的 IP 位址與安全令牌新增 SessionProvider",
+	"networksession-only-api-request": "NetworkSession 授權僅對 API 請求有效。",
+	"networksession-only-https": "NetworkSession 授權僅對 HTTPS 請求有效。",
+	"networksession-invalid-config-ip-ranges": "在 NetworkSessionProvider 配置的 <var>ip_ranges</var> 必須是一個陣列。",
+	"networksession-invalid-config-token": "在 NetworkSessionProvider 配置的 <var>token</var> 必須是一個字串。",
+	"networksession-invalid-config-username": "在 NetworkSessionProvider 配置的 <var>username</var> 必須是一個字串。",
+	"networksession-invalid-config-multiple-matches": "與請求匹配的使用者僅允許一名，但有配置多名使用者。",
+	"networksession-no-token-match": "提供的 NetworkSession 授權令牌無法進行驗證。"
+}
