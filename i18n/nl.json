@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"networksession-desc": "Voegt een SessionProvider toe op basis van het geconfigureerde IP-adres en geheime token",
+	"networksession-only-api-request": "NetworkSession-autorisatie is alleen geldig voor API-aanvragen.",
+	"networksession-only-https": "NetworkSession-autorisatie is alleen geldig voor HTTPS-verzoeken.",
+	"networksession-invalid-config-ip-ranges": "De in NetworkSessionProvider ingestelde variabele <var>ip_ranges</var> moet een array zijn.",
+	"networksession-invalid-config-token": "De in NetworkSessionProvider ingestelde variabele <var>token</var> moet een tekenreeks zijn.",
+	"networksession-invalid-config-username": "De in NetworkSessionProvider ingestelde variabele <var>username</var> moet een tekenreeks zijn.",
+	"networksession-invalid-config-multiple-matches": "Meerdere geconfigureerde gebruikers stemden met het verzoek overeen, maar er is er slechts één toegestaan.",
+	"networksession-no-token-match": "Het opgegeven NetworkSession-autorisatietoken kan niet worden geverifieerd."
+}
