@@ -71,11 +71,11 @@ class NetworkSessionProviderTest extends MediaWikiIntegrationTestCase {
 		$this->getServiceContainer()->getHookContainer()->clear( 'ApiBeforeMain' );
 		$this->getServiceContainer()->getHookContainer()->clear( 'BeforeInitialize' );
 
-		$this->config = new HashConfig( $unifiedConfig );
+		$config = new HashConfig( $unifiedConfig );
 		$mainConfig = $this->getServiceContainer()->getMainConfig();
 
 		$manager = new SessionManager( [
-			'config' => new MultiConfig( [ $this->config, $mainConfig ] ),
+			'config' => new MultiConfig( [ $config, $mainConfig ] ),
 			'logger' => new NullLogger,
 			'store' => new TestBagOStuff,
 		] );
