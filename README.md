@@ -28,14 +28,14 @@ $wgNetworkSessionProviderUsers = [
 		'username' => 'Example bot',
 		// The secret token that must be provided in the `NetworkSessionToken`
 		// HTTP header.
-		'token' => '@ryoEdR7p^lG1E&mMsO0tZn3Q6I&r03s'
+		'token' => '@ryoEdR7p^lG1E&mMsO0tZn3Q6I&r03s',
 		// The set of valid ip addresses or ip address ranges that the
 		// request must come from. Supports IPv4 and IPv6. May include
 		// single ip addresses, ip address ranges, and CIDR blocks. At
 		// least one value must be provided, an empty list will not
 		// match any requests.
 		'ip_ranges' => [
-			'127.0.0.1'
+			'127.0.0.1',
 			'10.0.0.0-10.255.255.255',
 			'192.168.0.0/28',
 		]
@@ -67,7 +67,7 @@ The following curl works with the example configuration above.
 
 ```shell
 curl -H 'Authorization: NetworkSession @ryoEdR7p^lG1E&mMsO0tZn3Q6I&r03s' \
-	https://localhost/w/api.php?action=query&meta=userinfo&format=json'
+	'https://localhost/w/api.php?action=query&meta=userinfo&format=json'
 ```
 
 ### Rotating secrets
@@ -101,5 +101,5 @@ configuration.
 ```shell
 curl -H 'Authorization: NetworkSession @ryoEdR7p^lG1E&mMsO0tZn3Q6I&r03s' \
 	-H 'X-Forwarded-Proto: https' \
-	http://localhost/w/api.php?action=query&meta=userinfo&format=json'
+	'http://localhost/w/api.php?action=query&meta=userinfo&format=json'
 ```
