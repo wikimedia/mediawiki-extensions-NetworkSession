@@ -136,7 +136,7 @@ class NetworkSessionProvider extends SessionProvider {
 	}
 
 	private function newSessionInfoForUser( array $user ): SessionInfo {
-		$id = self::hashToSessionId( implode( '\n', [
+		$id = $this->hashToSessionId( implode( '\n', [
 			WikiMap::getCurrentWikiId(),
 			$user['username'],
 			$user['token'],
