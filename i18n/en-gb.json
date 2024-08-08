@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reedy"
+		]
+	},
+	"networksession-only-api-request": "NetworkSession authorisation is only valid for API requests.",
+	"networksession-only-https": "NetworkSession authorisation is only valid for HTTPS requests.",
+	"networksession-no-token-match": "The provided NetworkSession authorisation token failed to authenticate."
+}
