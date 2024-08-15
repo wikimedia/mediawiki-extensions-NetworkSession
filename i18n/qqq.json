@@ -1,15 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Erik Bernhardson"
+			"Erik Bernhardson",
+			"Amire80"
 		]
 	},
 	"networksession-desc": "{{desc|name=Network Session|url=https://www.mediawiki.org/wiki/Extension:NetworkSession}}",
-	"networksession-only-api-request": "Error message returned when attempting a non-api request from a NetworkSession",
+	"networksession-only-api-request": "Error message returned when attempting a non-API request from a NetworkSession.",
 	"networksession-only-https": "Error message returned when providing NetworkSession auth without using https.",
-	"networksession-invalid-config-ip-ranges": "Error message returned when the NetworkSession configuration is invalid",
-	"networksession-invalid-config-token": "Error message returned when the NetworkSession configuration is invalid",
-	"networksession-invalid-config-username": "Error message returned when the NetworkSession configuration is invalid",
-	"networksession-invalid-config-multiple-matches": "Error message returned when configuration has specified multiple users that match the same request",
-	"networksession-no-token-match": "Error message returned when the provided secret token does not match a configured user"
+	"networksession-invalid-config-ip-ranges": "Error message returned when the NetworkSession configuration is invalid.",
+	"networksession-invalid-config-token": "Error message returned when the NetworkSession configuration is invalid.",
+	"networksession-invalid-config-username": "Error message returned when the NetworkSession configuration is invalid.",
+	"networksession-invalid-config-multiple-matches": "Error message returned when configuration has specified multiple users that match the same request.",
+	"networksession-no-token-match": "Error message returned when the provided secret token does not match a configured user."
 }
