@@ -2,11 +2,11 @@
 
 namespace MediaWiki\Extension\NetworkSession;
 
-use CachedBagOStuff;
 use ErrorPageError;
 use InvalidArgumentException;
 use MediaWiki\Config\HashConfig;
 use MediaWiki\Config\MultiConfig;
+use MediaWiki\Context\RequestContext;
 use MediaWiki\HookContainer\HookContainer;
 use MediaWiki\MainConfigNames;
 use MediaWiki\Output\OutputPage;
@@ -15,11 +15,11 @@ use MediaWiki\Session\SessionBackend;
 use MediaWiki\Session\SessionId;
 use MediaWiki\Session\SessionInfo;
 use MediaWiki\Session\SessionManager;
-use MediaWiki\Session\TestBagOStuff;
 use MediaWiki\Tests\Session\SessionProviderTestTrait;
+use MediaWiki\Tests\Session\TestBagOStuff;
 use MediaWikiIntegrationTestCase;
 use Psr\Log\NullLogger;
-use RequestContext;
+use Wikimedia\ObjectCache\CachedBagOStuff;
 
 /**
  * This program is free software; you can redistribute it and/or modify
