@@ -4,9 +4,12 @@
 			"沈澄心"
 		]
 	},
+	"networksession-desc": "根据配置的IP地址与安全令牌添加SessionProvider",
 	"networksession-only-api-request": "NetworkSession授权仅对API请求有效。",
 	"networksession-only-https": "NetworkSession授权仅对HTTPS请求有效。",
 	"networksession-invalid-config-ip-ranges": "NetworkSessionProvider中配置的<var>ip_ranges</var>必须是一个数组。",
 	"networksession-invalid-config-token": "NetworkSessionProvider中配置的<var>token</var>必须是一个字符串。",
-	"networksession-invalid-config-username": "NetworkSessionProvider中配置的<var>username</var>必须是一个字符串。"
+	"networksession-invalid-config-username": "NetworkSessionProvider中配置的<var>username</var>必须是一个字符串。",
+	"networksession-invalid-config-multiple-matches": "与请求匹配的用户仅允许一名，但配置了多名用户。",
+	"networksession-no-token-match": "提供的NetworkSession授权令牌无法进行身份验证。"
 }
