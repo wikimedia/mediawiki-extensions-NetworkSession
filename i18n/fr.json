@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mahabarata"
+		]
+	},
+	"networksession-desc": "Ajoute un SessionProvider basé sur l'adresse IP configurée et le jeton secret",
+	"networksession-only-api-request": "L'autorisation NetworkSession n'est valable que pour les requêtes API.",
+	"networksession-only-https": "L'autorisation NetworkSession n'est valable que pour les requêtes HTTPS.",
+	"networksession-invalid-config-ip-ranges": "Les <var>ip_ranges</var> configurés dans NetworkSessionProvider doivent être un tableau.",
+	"networksession-invalid-config-token": "Le <var>token</var> configuré dans NetworkSessionProvider doit être une chaîne.",
+	"networksession-invalid-config-username": "Le <var>username</var> configuré dans NetworkSessionProvider doit être une chaîne.",
+	"networksession-invalid-config-multiple-matches": "Plusieurs utilisateurs configurés correspondent à la requête, mais un seul est autorisé.",
+	"networksession-no-token-match": "Le jeton d’autorisation NetworkSession fourni n’a pas pu s’authentifier."
+}
