@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"networksession-desc": "يضيف SessionProvider استنادًا إلى عنوان IP المُكوّن والرمز السري",
+	"networksession-only-api-request": "يعتبر تفويض NetworkSession صالحًا فقط لطلبات API.",
+	"networksession-only-https": "يعتبر تفويض NetworkSession صالحًا فقط لطلبات HTTPS.",
+	"networksession-invalid-config-ip-ranges": "يجب أن تكون <var>ip_ranges</var> المُكوّنة في NetworkSessionProvider عبارة عن مصفوفة.",
+	"networksession-invalid-config-token": "يجب أن يكون <var>token</var> الذي تم تكوينه في NetworkSessionProvider عبارة عن سلسلة.",
+	"networksession-invalid-config-username": "يجب أن يكون <var>username</var> الذي تم تكوينه في NetworkSessionProvider عبارة عن سلسلة.",
+	"networksession-invalid-config-multiple-matches": "يتوافق العديد من المستخدمين الذين تم تكوينهم مع الطلب، ولكن يُسمح فقط بواحد منهم.",
+	"networksession-no-token-match": "فشلت عملية مصادقة رمز تفويض NetworkSession المقدم."
+}
