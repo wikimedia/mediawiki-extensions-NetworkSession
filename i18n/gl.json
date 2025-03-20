@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"networksession-desc": "Engade un SessionProvider en base ao enderezo IP configurado e no token secreto",
+	"networksession-only-api-request": "A autorización de NetworkSession só é válida para as solicitudes á API.",
+	"networksession-only-https": "A autorización de NetworkSession só é válida para solicitudes HTTPS.",
+	"networksession-invalid-config-ip-ranges": "O valor <var>ip_ranges</var> configurado en NetworkSessionProvider deben ser unha matriz.",
+	"networksession-invalid-config-token": "O valor <var>token</var> configurado en NetworkSessionProvider debe ser unha cadea de texto.",
+	"networksession-invalid-config-username": "O valor <var>username</var> configurado en NetworkSessionProvider debe ser unha cadea de texto.",
+	"networksession-invalid-config-multiple-matches": "A solicitude coincide con varios usuarios configurados, pero só se permite un.",
+	"networksession-no-token-match": "O token de autorización de NetworkSession proporcionado non se puido autenticar."
+}
