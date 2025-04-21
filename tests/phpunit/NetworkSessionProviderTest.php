@@ -2,11 +2,11 @@
 
 namespace MediaWiki\Extension\NetworkSession;
 
-use ErrorPageError;
 use InvalidArgumentException;
 use MediaWiki\Config\HashConfig;
 use MediaWiki\Config\MultiConfig;
 use MediaWiki\Context\RequestContext;
+use MediaWiki\Exception\ErrorPageError;
 use MediaWiki\HookContainer\HookContainer;
 use MediaWiki\MainConfigNames;
 use MediaWiki\Output\OutputPage;
