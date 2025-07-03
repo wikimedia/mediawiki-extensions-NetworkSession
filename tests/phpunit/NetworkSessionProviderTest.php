@@ -71,16 +71,25 @@ class NetworkSessionProviderTest extends MediaWikiIntegrationTestCase {
 		$this->getServiceContainer()->getHookContainer()->clear( 'ApiBeforeMain' );
 		$this->getServiceContainer()->getHookContainer()->clear( 'BeforeInitialize' );
 
+		// Reset session instance for testing.
+		SessionManager::resetInstance();
+
+		$manager = SessionManager::singleton();
 		$config = new HashConfig( $unifiedConfig );
 		$mainConfig = $this->getServiceContainer()->getMainConfig();
 
-		$manager = new SessionManager( [
-			'config' => new MultiConfig( [ $config, $mainConfig ] ),
-			'logger' => new NullLogger,
-			'store' => new TestBagOStuff,
-		] );
+		$manager->setConfig( new MultiConfig( [ $config, $mainConfig ] ) );
+		$manager->setLogger( new NullLogger() );
+		$manager->setHookContainer( $this->getServiceContainer()->getHookContainer() );
+		$manager->setSessionStore( new TestBagOStuff );
+		$manager->setUsernameUtils( $this->getServiceContainer()->getUsernameUtils() );
 
 		return $manager->getProvider( NetworkSessionProvider::class );
+	}
+
+	protected function tearDown(): void {
+		SessionManager::resetInstance();
+		parent::tearDown();
 	}
 
 	public function testPriorityIsRequired(): void {
