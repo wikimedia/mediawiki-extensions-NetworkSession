@@ -67,10 +67,10 @@ class NetworkSessionProviderTest extends MediaWikiIntegrationTestCase {
 		];
 
 		// Clear hooks so invoking the hooks doesn't need mocks
-		$services = $this->getServiceContainer();
-		$services->getHookContainer()->clear( 'ApiBeforeMain' );
-		$services->getHookContainer()->clear( 'BeforeInitialize' );
+		$this->clearHook( 'ApiBeforeMain' );
+		$this->clearHook( 'BeforeInitialize' );
 
+		$services = $this->getServiceContainer();
 		$config = new HashConfig( $unifiedConfig );
 		$mainConfig = $services->getMainConfig();
 		$this->setService( 'MainConfig', new MultiConfig( [ $config, $mainConfig ] ) );
