@@ -14,9 +14,7 @@ use MediaWiki\Request\FauxRequest;
 use MediaWiki\Session\SessionBackend;
 use MediaWiki\Session\SessionId;
 use MediaWiki\Session\SessionInfo;
-use MediaWiki\Session\SessionManager;
 use MediaWiki\Tests\Session\SessionProviderTestTrait;
-use MediaWiki\Tests\Session\TestBagOStuff;
 use MediaWikiIntegrationTestCase;
 use Psr\Log\NullLogger;
 use Wikimedia\ObjectCache\CachedBagOStuff;
@@ -67,29 +65,19 @@ class NetworkSessionProviderTest extends MediaWikiIntegrationTestCase {
 			NetworkSessionProvider::USERS_RIGHTS_CONFIG_KEY => null,
 			NetworkSessionProvider::CAN_ALWAYS_AUTOCREATE_CONFIG_KEY => false,
 		];
+
 		// Clear hooks so invoking the hooks doesn't need mocks
-		$this->getServiceContainer()->getHookContainer()->clear( 'ApiBeforeMain' );
-		$this->getServiceContainer()->getHookContainer()->clear( 'BeforeInitialize' );
+		$services = $this->getServiceContainer();
+		$services->getHookContainer()->clear( 'ApiBeforeMain' );
+		$services->getHookContainer()->clear( 'BeforeInitialize' );
 
-		// Reset session instance for testing.
-		SessionManager::resetInstance();
-
-		$manager = SessionManager::singleton();
 		$config = new HashConfig( $unifiedConfig );
-		$mainConfig = $this->getServiceContainer()->getMainConfig();
+		$mainConfig = $services->getMainConfig();
+		$this->setService( 'MainConfig', new MultiConfig( [ $config, $mainConfig ] ) );
 
-		$manager->setConfig( new MultiConfig( [ $config, $mainConfig ] ) );
-		$manager->setLogger( new NullLogger() );
-		$manager->setHookContainer( $this->getServiceContainer()->getHookContainer() );
-		$manager->setSessionStore( new TestBagOStuff );
-		$manager->setUsernameUtils( $this->getServiceContainer()->getUsernameUtils() );
+		$manager = $services->getSessionManager();
 
 		return $manager->getProvider( NetworkSessionProvider::class );
-	}
-
-	protected function tearDown(): void {
-		SessionManager::resetInstance();
-		parent::tearDown();
 	}
 
 	public function testPriorityIsRequired(): void {
