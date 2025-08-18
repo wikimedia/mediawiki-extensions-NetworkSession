@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"networksession-desc": "ТӀетуху SessionProvider нисдинчу IP-адресан а, къайлахчу токенан а бух тӀехь",
+	"networksession-only-api-request": "NetworkSession авторизаци API дехаршна бен лелош йац.",
+	"networksession-only-https": "NetworkSession авторизаци HTTPS дехаршна бен лелош йац.",
+	"networksession-invalid-config-ip-ranges": "NetworkSessionProvider гӀирсехь дӀахӀоттийна <var>ip_ranges</var> массив хила йеза.",
+	"networksession-invalid-config-token": "NetworkSessionProvider чохь дӀахӀоттийна <var>токен</var> могӀа хила беза.",
+	"networksession-invalid-config-username": "NetworkSessionProvider чохь дӀахӀоттийна <var>декъашхочун цӀе</var> могӀа хила беза.",
+	"networksession-invalid-config-multiple-matches": "Дехар нийса догӀу масех декъашхошна, амма цхьаъ бен ца магадо.",
+	"networksession-no-token-match": "ДӀайелла NetworkSession авторизацин токен аутентификаци йан аьтто ца баьлла."
+}
