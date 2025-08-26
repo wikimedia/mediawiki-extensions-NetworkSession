@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"networksession-desc": "Adiciona um SessionProvider com base no endereço IP configurado e no token secreto."
+}
