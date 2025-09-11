@@ -14,10 +14,10 @@ use MediaWiki\Request\FauxRequest;
 use MediaWiki\Session\SessionBackend;
 use MediaWiki\Session\SessionId;
 use MediaWiki\Session\SessionInfo;
+use MediaWiki\Session\SessionStore;
 use MediaWiki\Tests\Session\SessionProviderTestTrait;
 use MediaWikiIntegrationTestCase;
 use Psr\Log\NullLogger;
-use Wikimedia\ObjectCache\CachedBagOStuff;
 
 /**
  * This program is free software; you can redistribute it and/or modify
@@ -396,7 +396,7 @@ class NetworkSessionProviderTest extends MediaWikiIntegrationTestCase {
 		return new SessionBackend(
 			new SessionId( $info->getId() ),
 			$info,
-			$this->createMock( CachedBagOStuff::class ),
+			$this->createMock( SessionStore::class ),
 			new NullLogger,
 			$this->createMock( HookContainer::class ),
 			600
