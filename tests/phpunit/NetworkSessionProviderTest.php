@@ -112,6 +112,13 @@ class NetworkSessionProviderTest extends MediaWikiIntegrationTestCase {
 		$this->assertFalse( $provider->canAlwaysAutocreate() );
 	}
 
+	public function testBasicWithPreventSessionsForUser(): void {
+		$provider = $this->getProvider();
+
+		$this->expectNotToPerformAssertions();
+		$provider->preventSessionsForUser( $this->getTestSysop()->getUser()->getName() );
+	}
+
 	public function testHappyPath(): void {
 		$provider = $this->getProvider();
 

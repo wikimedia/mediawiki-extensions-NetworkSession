@@ -192,6 +192,12 @@ class NetworkSessionProvider extends SessionProvider {
 		return false;
 	}
 
+	/** @inheritDoc */
+	public function preventSessionsForUser( $username ) {
+		// must be implemented since ::canChangeUser() returns false but
+		// no need to do anything since we only support predefined users
+	}
+
 	/**
 	 * Persist a session into a request/response
 	 *
