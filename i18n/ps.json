@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"networksession-desc": "د پټ ټوکن او ترتيب شوې وېب پتې پر بنسټ د غونډې چمتو کوونکی ورگډوي",
+	"networksession-only-api-request": "د شبکې غونډې اجازه يوازې د ای‌پي‌آی غوښتنو لپاره د منلو وړ دی.",
+	"networksession-only-https": "شبکې غونډې اجازه يوازې HTTPS غوښتنو لپاره د باور وړ ده.",
+	"networksession-invalid-config-ip-ranges": "هغه <var>وېب بريدونه</var> چې په شبکيزې‌غونډې‌چمتوونکي کې ترتيب شوې وي بايد يو کتار وي.",
+	"networksession-invalid-config-token": "شبکيزې‌غونډې‌چمتوونکي کې ترتيب شوی <var>ټوکن</var> بايد يوه لړۍ وي.",
+	"networksession-invalid-config-username": "شبکيزې‌غونډې‌چمتوونکي کې ترتيب شوی <var>کارن‌نوم</var> بايد يو لړۍ وي.",
+	"networksession-invalid-config-multiple-matches": "گڼ ترتيب شوي کارنان د غوښتنې سره سم و؛ خو يوازې يو ته اجازه ورکړل شوې.",
+	"networksession-no-token-match": "د وړاندې شوې شبکيزې‌غونډې تاييد نښې تاييدلو کې پاتې راغی."
+}
