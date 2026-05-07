@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tensama0415"
+		]
+	},
+	"networksession-desc": "구성된 IP 주소와 비밀 토큰을 기반으로 SessionProvider를 추가합니다",
+	"networksession-only-api-request": "NetworkSession 인증은 API 요청에만 유효합니다.",
+	"networksession-only-https": "NetworkSession 인증은 HTTPS 요청에만 유효합니다.",
+	"networksession-invalid-config-ip-ranges": "NetworkSessionProvider에 구성된 <var>ip_ranges</var>는 배열이어야 합니다.",
+	"networksession-invalid-config-token": "NetworkSessionProvider에 구성된 <var>token</var>은 문자열이어야 합니다.",
+	"networksession-invalid-config-username": "NetworkSessionProvider에 구성된 <var>username</var>은 문자열이어야 합니다.",
+	"networksession-invalid-config-multiple-matches": "여러 명의 구성된 사용자가 요청과 일치하지만, 한 명만 허용됩니다.",
+	"networksession-no-token-match": "제공된 NetworkSession 인증 토큰으로 인증에 실패했습니다."
+}
