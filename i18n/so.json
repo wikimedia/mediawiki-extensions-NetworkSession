@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"networksession-desc": "Waxay ku dartaa SessionProvider ku salaysan cinwaanka IP-ga ee la habeeyay iyo token sir ah",
+	"networksession-only-api-request": "Ogolaanshaha NetworkSession wuxuu ansax yahay oo keliya codsiyada API-ga.",
+	"networksession-only-https": "Ogolaanshaha NetworkSession wuxuu ansax yahay oo keliya codsiyada HTTPS.",
+	"networksession-invalid-config-ip-ranges": "<var>ip_ranges</var> ee lagu habeeyay NetworkSessionProvider waa in uu ahaadaa saf",
+	"networksession-invalid-config-token": "<var>token</var> ee lagu habeeyay NetworkSessionProvider waa in uu ahaadaa xarig.",
+	"networksession-invalid-config-username": "<var>username</var> ee lagu habeeyay NetworkSessionProvider waa in uu ahaadaa xarig.",
+	"networksession-invalid-config-multiple-matches": "Isticmaalayaal badan oo la habeeyay ayaa la jaanqaaday codsiga, laakiin hal keliya ayaa la oggol yahay.",
+	"networksession-no-token-match": "Token-ka oggolaanshaha NetworkSession ee la bixiyay wuu ku guuldareystay xaqiijinta."
+}
