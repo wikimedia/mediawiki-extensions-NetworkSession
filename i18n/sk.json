@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"networksession-desc": "Pridáva poskytovateľa relácií (SessionProvider) založeného na nakonfigurovanej IP adrese a tajnom tokene",
+	"networksession-only-api-request": "Autorizácia NetworkSession je platná len pre požiadavky API.",
+	"networksession-only-https": "Autorizácia NetworkSession je platná len pre požiadavky cez HTTPS.",
+	"networksession-invalid-config-ip-ranges": "Hodnota <var>ip_ranges</var> nakonfigurovaná v NetworkSessionProvider musí byť pole.",
+	"networksession-invalid-config-token": "Hodnota <var>token</var> nakonfigurovaná v NetworkSessionProvider musí byť reťazec.",
+	"networksession-invalid-config-username": "Hodnota <var>username</var> nakonfigurovaná v NetworkSessionProvider musí byť reťazec.",
+	"networksession-invalid-config-multiple-matches": "Požiadavke zodpovedalo viacero nakonfigurovaných používateľov, povolený je však len jeden.",
+	"networksession-no-token-match": "Poskytnutý autorizačný token NetworkSession sa nepodarilo overiť."
+}
